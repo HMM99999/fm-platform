@@ -3,18 +3,17 @@ package com.fm.common.util;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import com.fm.common.api.CommonAPI;
-import com.fm.common.constant.CacheConstant;
 import com.fm.common.constant.CommonConstant;
 import com.fm.common.desensitization.util.SensitiveInfoUtil;
 import com.fm.common.exception.JeecgBoot401Exception;
 import com.fm.common.system.util.JwtUtil;
 import com.fm.common.system.vo.LoginUser;
+import org.jeecg.common.constant.CacheConstant;
+import org.jeecg.common.util.RedisUtil;
 
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @Author scott
- * @Date 2019/9/23 14:12
  * @Description: 编程校验token有效性
  */
 @Slf4j

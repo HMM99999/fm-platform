@@ -2,7 +2,6 @@ package com.fm.common.constant;
 
 /**
  * 	系统通告 - 发布状态
- * @Author LeeShaoQing
  *
  */
 public interface CommonSendStatus {

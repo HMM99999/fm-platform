@@ -19,7 +19,7 @@ import java.util.Map;
 
 /**
  * 资源加载工具类
- * @Author taoYan
+ *
  * @Date 2022/7/8 10:40
  **/
 @Slf4j

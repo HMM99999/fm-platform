@@ -16,8 +16,6 @@ import java.util.List;
 
 /**
  * 敏感数据切面处理类
- * @Author taoYan
- * @Date 2022/4/20 17:45
  **/
 @Slf4j
 @Aspect

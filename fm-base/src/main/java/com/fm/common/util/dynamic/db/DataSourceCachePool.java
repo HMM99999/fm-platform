@@ -2,9 +2,9 @@ package com.fm.common.util.dynamic.db;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.fm.common.api.CommonAPI;
-import com.fm.common.constant.CacheConstant;
 import com.fm.common.system.vo.DynamicDataSourceModel;
 import com.fm.common.util.SpringContextUtils;
+import org.jeecg.common.constant.CacheConstant;
 import org.springframework.data.redis.core.RedisTemplate;
 import java.util.HashMap;
 import java.util.Map;

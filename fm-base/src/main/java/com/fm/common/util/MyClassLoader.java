@@ -2,9 +2,6 @@ package com.fm.common.util;
 
 import com.fm.common.constant.SymbolConstant;
 
-/**
- * @Author  张代浩
- */
 public class MyClassLoader extends ClassLoader {
 	public static Class getClassByScn(String className) {
 		Class myclass = null;

@@ -1,13 +1,5 @@
 package com.fm.common.system.vo;
 
-import com.fmframework.poi.excel.annotation.Excel;
-
-/**
- * @Author qinfeng
- * @Date 2020/2/19 12:01
- * @Description:
- * @Version 1.0
- */
 public class SysCategoryModel {
     /**主键*/
     private String id;

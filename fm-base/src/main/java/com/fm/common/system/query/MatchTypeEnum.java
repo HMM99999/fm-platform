@@ -4,8 +4,6 @@ import com.fm.common.util.oConvertUtils;
 
 /**
  * 查询链接规则
- *
- * @Author Sunjianlei
  */
 public enum MatchTypeEnum {
 

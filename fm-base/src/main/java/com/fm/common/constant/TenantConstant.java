@@ -2,8 +2,6 @@ package com.fm.common.constant;
 
 /**
  * @Description: TenantConstant
- * @author: scott
- * @date: 2022年08月29日 15:29
  */
 public interface TenantConstant {
 

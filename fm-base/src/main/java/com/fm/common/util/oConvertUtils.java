@@ -22,11 +22,6 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * 
- * @Author  张代浩
- *
- */
 @Slf4j
 public class oConvertUtils {
 	public static boolean isEmpty(Object object) {

@@ -4,7 +4,6 @@ import java.lang.annotation.*;
 
 /**
  * online请求拦截专用注解
- *
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE,ElementType.METHOD})

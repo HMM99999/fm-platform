@@ -4,7 +4,8 @@ import cn.hutool.core.util.ObjectUtil;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.UnauthorizedException;
 import com.fm.common.api.vo.Result;
-import com.fm.common.enums.SentinelErrorInfoEnum;
+import org.jeecg.common.enums.SentinelErrorInfoEnum;
+import org.jeecg.common.exception.JeecgCloudException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.data.redis.connection.PoolException;
@@ -20,9 +21,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 异常处理器
- * 
- * @Author scott
- * @Date 2019
  */
 @RestControllerAdvice
 @Slf4j
@@ -86,12 +84,7 @@ public class JeecgBootExceptionHandler {
 		//update-end---author:zyf ---date:20220411  for：处理Sentinel限流自定义异常
 		return Result.error("操作失败，"+e.getMessage());
 	}
-	
-	/**
-	 * @Author 政辉
-	 * @param e
-	 * @return
-	 */
+
 	@ExceptionHandler(HttpRequestMethodNotSupportedException.class)
 	public Result<?> httpRequestMethodNotSupportedException(HttpRequestMethodNotSupportedException e){
 		StringBuffer sb = new StringBuffer();

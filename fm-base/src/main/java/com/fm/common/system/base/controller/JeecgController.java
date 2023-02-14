@@ -11,12 +11,12 @@ import com.fm.common.api.vo.Result;
 import com.fm.common.system.query.QueryGenerator;
 import com.fm.common.system.vo.LoginUser;
 import com.fm.common.util.oConvertUtils;
-import com.fmframework.poi.excel.ExcelImportUtil;
-import com.fmframework.poi.excel.def.NormalExcelConstants;
-import com.fmframework.poi.excel.entity.ExportParams;
-import com.fmframework.poi.excel.entity.ImportParams;
-import com.fmframework.poi.excel.entity.enmus.ExcelType;
-import com.fmframework.poi.excel.view.JeecgEntityExcelView;
+import org.jeecgframework.poi.excel.ExcelImportUtil;
+import org.jeecgframework.poi.excel.def.NormalExcelConstants;
+import org.jeecgframework.poi.excel.entity.ExportParams;
+import org.jeecgframework.poi.excel.entity.ImportParams;
+import org.jeecgframework.poi.excel.entity.enmus.ExcelType;
+import org.jeecgframework.poi.excel.view.JeecgEntityExcelView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.multipart.MultipartFile;
@@ -30,9 +30,6 @@ import java.util.*;
 
 /**
  * @Description: Controller基类
- * @Author: dangzhenghui@163.com
- * @Date: 2019-4-21 8:13
- * @Version: 1.0
  */
 @Slf4j
 public class JeecgController<T, S extends IService<T>> {

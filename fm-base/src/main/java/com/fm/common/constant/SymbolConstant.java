@@ -2,8 +2,6 @@ package com.fm.common.constant;
 
 /**
  * @Description: 符号和特殊符号常用类
- * @author: wangshuai
- * @date: 2022年03月30日 17:44
  */
 public class SymbolConstant {
 

@@ -5,7 +5,7 @@ package com.fm.common.util.superSearch;//package com.fm.common.util.superSearch;
 ///**
 // *   判断类型，追加查询规则
 // *
-// * @Author Scott
+// *
 // * @Date 2019年02月14日
 // */
 //public class ObjectParseUtil {

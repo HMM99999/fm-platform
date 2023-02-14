@@ -6,7 +6,6 @@ import io.netty.util.internal.StringUtil;
  * 流水号生成规则(按默认规则递增，数字从1-99开始递增，数字到99，递增字母;位数不够增加位数)
  * A001
  * A001A002
- * @Author zhangdaihao
  *
  */
 public class YouBianCodeUtil {

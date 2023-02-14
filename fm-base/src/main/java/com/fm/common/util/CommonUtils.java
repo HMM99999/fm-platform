@@ -11,7 +11,7 @@ import com.fm.common.constant.ServiceNameConstants;
 import com.fm.common.constant.SymbolConstant;
 import com.fm.common.util.filter.FileTypeFilter;
 import com.fm.common.util.oss.OssBootUtil;
-import com.fmframework.poi.util.PoiPublicUtil;
+import org.jeecgframework.poi.util.PoiPublicUtil;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.multipart.MultipartFile;

@@ -2,7 +2,7 @@ package com.fm.common.system.base.entity;
 
 import java.io.Serializable;
 
-import com.fmframework.poi.excel.annotation.Excel;
+import org.jeecgframework.poi.excel.annotation.Excel;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -16,9 +16,6 @@ import lombok.experimental.Accessors;
 
 /**
  * @Description: Entity基类
- * @Author: dangzhenghui@163.com
- * @Date: 2019-4-28
- * @Version: 1.1
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

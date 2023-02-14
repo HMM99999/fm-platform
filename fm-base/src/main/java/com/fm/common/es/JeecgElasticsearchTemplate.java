@@ -17,8 +17,6 @@ import java.util.*;
 
 /**
  * 关于 ElasticSearch 的一些方法（创建索引、添加数据、查询等）
- *
- * @author sunjianlei
  */
 @Slf4j
 @Component

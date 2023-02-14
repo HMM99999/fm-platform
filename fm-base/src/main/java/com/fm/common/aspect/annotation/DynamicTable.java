@@ -4,9 +4,6 @@ import java.lang.annotation.*;
 
 /**
  * 动态table切换
- *
- * @author :zyf
- * @date:2020-04-25
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

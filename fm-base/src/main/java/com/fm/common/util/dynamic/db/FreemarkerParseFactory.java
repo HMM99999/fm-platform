@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import com.fm.common.constant.DataBaseConstant;
 import com.fm.common.constant.SymbolConstant;
-import com.fmframework.codegenerate.generate.util.SimpleFormat;
+import org.jeecgframework.codegenerate.generate.util.SimpleFormat;
 
 import java.io.StringWriter;
 import java.util.Map;

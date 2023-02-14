@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * 消息类型
- *
  */
 @EnumDict("messageType")
 public enum MessageTypeEnum {

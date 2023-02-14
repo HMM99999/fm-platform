@@ -8,8 +8,6 @@ import java.lang.annotation.Target;
 
 /**
   *  数据权限注解
- * @Author taoyan
- * @Date 2019年4月11日
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE,ElementType.METHOD})

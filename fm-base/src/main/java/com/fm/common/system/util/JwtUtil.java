@@ -29,7 +29,7 @@ import com.fm.common.util.SpringContextUtils;
 import com.fm.common.util.oConvertUtils;
 
 /**
- * @Author Scott
+ *
  * @Date 2018-07-12 14:23
  * @Desc JWT工具类
  **/

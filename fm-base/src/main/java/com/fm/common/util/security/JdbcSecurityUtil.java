@@ -5,7 +5,7 @@ import com.fm.common.util.oConvertUtils;
 
 /**
  * jdbc连接校验
- * @Author taoYan
+ *
  * @Date 2022/8/10 18:15
  **/
 public class JdbcSecurityUtil {

@@ -13,8 +13,6 @@ import java.util.List;
 
 /**
  * 敏感信息处理工具类
- * @author taoYan
- * @date 2022/4/20 18:01
  **/
 @Slf4j
 public class SensitiveInfoUtil {

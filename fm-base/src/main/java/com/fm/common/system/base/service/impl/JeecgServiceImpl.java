@@ -9,9 +9,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @Description: ServiceImpl基类
- * @Author: dangzhenghui@163.com
- * @Date: 2019-4-21 8:13
- * @Version: 1.0
  */
 @Slf4j
 public class JeecgServiceImpl<M extends BaseMapper<T>, T extends JeecgEntity> extends ServiceImpl<M, T> implements JeecgService<T> {

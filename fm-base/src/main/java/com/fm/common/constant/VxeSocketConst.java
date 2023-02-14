@@ -2,7 +2,6 @@ package com.fm.common.constant;
 
 /**
  * VXESocket 常量
- *
  */
 public class VxeSocketConst {
 

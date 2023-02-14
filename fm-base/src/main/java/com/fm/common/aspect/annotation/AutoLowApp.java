@@ -6,10 +6,6 @@ import com.fm.common.constant.enums.LowAppAopEnum;
 
 /**
  * 自动注入low_app_id
- * 
- * @Author scott
- * @email jeecgos@163.com
- * @Date 2022年01月05日
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

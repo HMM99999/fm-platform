@@ -2,8 +2,6 @@ package com.fm.common.constant;
 
 /**
  * @Description: Websocket常量类
- * @author: taoyan
- * @date: 2020年03月23日
  */
 public class WebsocketConst {
 

@@ -2,8 +2,6 @@ package com.fm.common.es;
 
 /**
  * 用于创建 ElasticSearch 的 queryString
- *
- * @author sunjianlei
  */
 public class QueryStringBuilder {
 

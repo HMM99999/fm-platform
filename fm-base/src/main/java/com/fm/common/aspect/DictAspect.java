@@ -30,9 +30,6 @@ import java.util.stream.Collectors;
 
 /**
  * @Description: 字典aop类
- * @Author: dangzhenghui
- * @Date: 2019-3-17 21:50
- * @Version: 1.0
  */
 @Aspect
 @Component
