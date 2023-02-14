@@ -16,9 +16,6 @@ import java.lang.reflect.Method;
 
 /**
  * 动态table切换 切面处理
- *
- * @author :zyf
- * @date:2020-04-25
  */
 @Aspect
 @Component

@@ -10,9 +10,6 @@ import java.nio.charset.Charset;
 
 /**
  * 保存过滤器里面的流
- * 
- * @author jeecg
- * @date 20210621
  */
 public class BodyReaderHttpServletRequestWrapper extends HttpServletRequestWrapper {
 

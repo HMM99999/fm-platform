@@ -8,8 +8,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Description: 本地线程变量存储工具类
- * @author: lsq
- * @date: 2022年03月25日 11:42
  */
 public class ThreadLocalDataHelper {
     /**

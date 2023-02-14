@@ -1,10 +1,5 @@
 package com.fm.config.vo;
 
-/**
- *
- * @author: scott
- * @date: 2022年04月18日 20:35
- */
 public class Path {
     private String upload;
     private String webapp;

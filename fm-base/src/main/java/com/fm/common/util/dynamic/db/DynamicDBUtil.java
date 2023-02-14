@@ -18,10 +18,6 @@ import java.util.Map;
 
 /**
  * Spring JDBC 实时数据库访问
- *
- * @author chenguobin
- * @version 1.0
- * @date 2014-09-05
  */
 @Slf4j
 public class DynamicDBUtil {

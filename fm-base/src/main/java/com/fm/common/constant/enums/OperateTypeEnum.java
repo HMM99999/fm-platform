@@ -4,8 +4,6 @@ import com.fm.common.constant.CommonConstant;
 
 /**
  * @Description: 操作类型
- *
- * @date: 2022/3/31 10:05
  */
 public enum OperateTypeEnum {
 

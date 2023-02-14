@@ -16,11 +16,8 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 /**
- * @author 赵俊夫
- * @version V1.0
  * @Title:FreemarkerHelper
  * @description:Freemarker引擎协助类
- * @date Jul 5, 2013 2:58:29 PM
  */
 @Slf4j
 public class FreemarkerParseFactory {

@@ -352,8 +352,6 @@ public class OssBootUtil {
      * 替换前缀，防止key不一致导致获取不到文件
      * @param objectName 文件上传路径 key
      * @param customBucket 自定义桶
-     * @date 2022-01-20
-     * @author lsq
      * @return
      */
     private static String replacePrefix(String objectName,String customBucket){

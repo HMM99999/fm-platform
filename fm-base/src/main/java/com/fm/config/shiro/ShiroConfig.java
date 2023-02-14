@@ -34,8 +34,6 @@ import javax.servlet.Filter;
 import java.util.*;
 
 /**
- * @author: Scott
- * @date: 2018/2/7
  * @description: shiro 配置类
  */
 

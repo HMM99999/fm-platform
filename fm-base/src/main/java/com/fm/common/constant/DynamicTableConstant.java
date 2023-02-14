@@ -2,9 +2,6 @@ package com.fm.common.constant;
 
 /**
  * 动态切换表配置常量
- *
- * @author: scott
- * @date: 2022年04月25日 22:30
  */
 public class DynamicTableConstant {
     /**

@@ -6,8 +6,6 @@ import java.util.*;
 
 /**
  * 查询表/字段 黑名单处理
- *
- * @Date 2022/3/17 11:21
  **/
 @Slf4j
 public abstract class AbstractQueryBlackListHandler {

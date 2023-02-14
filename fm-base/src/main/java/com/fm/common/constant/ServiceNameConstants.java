@@ -19,8 +19,6 @@
 package com.fm.common.constant;
 
 /**
- * @author scott
- * @date 2019年05月18日
  * 服务名称
  */
 public interface ServiceNameConstants {

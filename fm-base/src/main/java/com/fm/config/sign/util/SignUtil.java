@@ -15,9 +15,6 @@ import java.util.SortedMap;
 
 /**
  * 签名工具类
- * 
- * @author jeecg
- * @date 20210621
  */
 @Slf4j
 public class SignUtil {

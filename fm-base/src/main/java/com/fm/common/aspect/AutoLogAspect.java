@@ -124,10 +124,6 @@ public class AutoLogAspect {
 
     /**
      * @Description: 获取请求参数
-     * @author: scott
-     * @date: 2020/4/16 0:10
-     * @param request:  request
-     * @param joinPoint:  joinPoint
      * @Return: java.lang.String
      */
     private String getReqestParams(HttpServletRequest request, JoinPoint joinPoint) {

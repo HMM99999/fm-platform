@@ -3,8 +3,6 @@ package com.fm.common.system.vo;
 
 /**
  * @Description: 系统文件实体类
- * @author: wangshuai
- * @date: 2022年08月11日 9:48
  */
 public class SysFilesModel {
     /**主键id*/

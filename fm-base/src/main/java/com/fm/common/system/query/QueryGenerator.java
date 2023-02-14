@@ -759,11 +759,7 @@ public class QueryGenerator {
 	}
 
 	/**
-	* @author: scott
 	* @Description: 去掉值前后单引号
-	* @date: 2020/3/19 21:26
-	* @param ruleValue: 
-	* @Return: java.lang.String
 	*/
 	public static String trimSingleQuote(String ruleValue) {
 		if (oConvertUtils.isEmpty(ruleValue)) {
