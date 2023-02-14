@@ -31,17 +31,11 @@ public class oConvertUtils {
 		if ("".equals(object)) {
 			return (true);
 		}
-		if (CommonConstant.STRING_NULL.equals(object)) {
-			return (true);
-		}
-		return (false);
+		return CommonConstant.STRING_NULL.equals(object);
 	}
 	
 	public static boolean isNotEmpty(Object object) {
-		if (object != null && !"".equals(object) && !object.equals(CommonConstant.STRING_NULL)) {
-			return (true);
-		}
-		return (false);
+		return object != null && !"".equals(object) && !object.equals(CommonConstant.STRING_NULL);
 	}
 
 	public static String decode(String strIn, String sourceCode, String targetCode) {
