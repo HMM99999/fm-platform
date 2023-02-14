@@ -4,16 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.fm</groupId>
+    <groupId>org.fm</groupId>
     <artifactId>fm-platform</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>fm-base</module>
+        <module>fm-demo</module>
+        <module>fm-system</module>
     </modules>
 
     <properties>
         <fm.version>3.4.4</fm.version>
+        <jeecgboot.version>3.4.4</jeecgboot.version>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
